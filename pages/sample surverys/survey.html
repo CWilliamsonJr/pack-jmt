@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Sample Surveys</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+      <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/themes/base/theme.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles/style.css" >
+      <script type="application/javascript">
+          //TODO: Shorten Nav Menu by adding drop down menus
+
+      </script>
+  </head>
+  <body>
+  <nav class="navbar navbar-default">
+      <div class="container-fluid">
+
+          <div class="">
+              <div class="navbar-brand"><a class="" href="../../dashboard.php">Sample Surveys</a></div>
+              <ul class="nav navbar-nav navbar-right margin_right">
+                  <li><a href="#" role="button"><i class="fa fa-home" aria-hidden="true">&nbsp;Home</i></a></li>
+
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-pencil" aria-hidden="true">&nbsp;Surveys</i> <span class="caret"></span></a>
+                      <ul class="dropdown-menu nav nav-bar ">
+                          <li><a href="#"><i class="fa fa-pencil" aria-hidden="true">&nbsp;Request a Survey</i></a></li>
+                          <li><a href="#"><i class="fa fa-question" aria-hidden="true">&nbsp;Sample Surveys</i> </a></a></li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-list" aria-hidden="true">&nbsp;F.A.Q.</i> <span class="caret"></span></a>
+                      <ul class="dropdown-menu nav nav-bar ">
+                          <li><a href="#"><i class="fa fa-question" aria-hidden="true">&nbsp;Who we are</i> </a></a></li>
+                          <li><a href="#"><i class="fa fa-building" aria-hidden="true">&nbsp;Industries We Serve</i> </a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#"><i class="fa fa-comment" aria-hidden="true">&nbsp;Testimonials</i> </a></li>
+                      </ul>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+    <div class="container">
+        <div class="row">
+            <div id="accordion-resizer" class="ui-widget-content">
+                <div id="accordion">
+                <h3>Sample Healthcare Survey</h3>
+                <div id="healthcare-form">
+                <!--- Question 1 -->
+                <div class="questions" id="question_1">
+                    <span class="text-bold spacer">Question 1:</span>How satisfied were you with your appointment?
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question1" id="question1-a" value="a" >
+                            A.Very satisfied
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question1" id="question1-b" value="b" >
+                            B.Somewhat satisfied
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question1" id="question1-c" value="c" >
+                            C.Neither satisfied or unsatisfied
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question1" id="question1-d" value="d" >
+                            D.Somewhat unsatisfied
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question1" id="question1-e" value="e" >
+                            E.Very unsatisfied
+                        </label>
+                    </div>
+                </div>
+                <!--- Question 2 -->
+                <div class="questions" id="question_2">
+                    <span class="text-bold spacer">Question 2:</span>Did the doctor see you in a reasonable amount of time?
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question2" id="question2-a" value="a" >
+                            Yes.
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question2" id="question2-b" value="b" >
+                            No.
+                        </label>
+                    </div>
+                </div>
+                <!--- Question 3 -->
+                <div class="questions" id="question_3">
+                    <span class="text-bold spacer">Question 3:</span>Was the receptionist friendly?
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question3" id="question3-a" value="a" >
+                            Yes
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question3" id="question3-b" value="b" >
+                            No.
+                        </label>
+                    </div>
+                </div>
+                <!--- Question 4 -->
+                <div class="questions" id="question_4">
+                    <span class="text-bold spacer">Question 4:</span>Was waiting area sanitary?
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question4" id="question4-a" value="a" >
+                            Yes.
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question4" id="question4-b" value="b" >
+                            No.
+                        </label>
+                    </div>
+                </div>
+                <!--- Question 5 -->
+                <div class="questions" id="question_5">
+                    <span class="text-bold spacer">Question 5:</span>Was the reason you went to the doctor addressed in a satisfactory manner?
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question5" id="question5-a" value="a" >
+                            Yes.
+                        </label>
+                    </div>
+                    <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question5" id="question5-b" value="b" >
+                            No.
+                        </label>
+                    </div>
+                </div>
+            </div>
+                <h3>Sample Education Survey</h3>
+                <div id="education-form">
+                    <!--- Question 1 -->
+                    <div class="questions" id="question_1">
+                        <span class="text-bold spacer">Question 1:</span>Are you seeing improvement in your child’s learning?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 2 -->
+                    <div class="questions" id="question_2">
+                        <span class="text-bold spacer">Question 2:</span>Do you feel teachers are assigning the appropriate amount of homework?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 3 -->
+                    <div class="questions" id="question_3">
+                        <span class="text-bold spacer">Question 3:</span>Do you feel the teachers are catering to your child’s learning style?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 4 -->
+                    <div class="questions" id="question_4">
+                        <span class="text-bold spacer">Question 4:</span>How do you feel about the level of education being provided?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-a" value="a" >
+                                Very Good.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-b" value="b" >
+                                Somewhat Good.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-c" value="c" >
+                                Neither good nor bad.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-d" value="d" >
+                                Somewhat Bad
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question5-e" value="e" >
+                                Very Bad.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 5 -->
+                    <div class="questions" id="question_5">
+                        <span class="text-bold spacer">Question 5:</span>How do you feel about the quality of the extracurricular activities available?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-a" value="a" >
+                                Very Good.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-b" value="b" >
+                                Somewhat Good.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-c" value="c" >
+                                Neither good nor bad.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-d" value="d" >
+                                Somewhat Bad.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-e" value="e" >
+                                Very Bad.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Sample Retail Survey</h3>
+                <div id="retail-form">
+                    <!--- Question 1 -->
+                    <div class="questions" id="question_1">
+                        <span class="text-bold spacer">Question 1:</span>How do you about the quality of service provided.
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-a" value="a" >
+                                Very satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-b" value="b" >
+                                Somewhat satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-c" value="c" >
+                                Neither satisfied nor unsatisfied
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Somewhat unsatisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Very unsatisfied.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 2 -->
+                    <div class="questions" id="question_2">
+                        <span class="text-bold spacer">Question 2:</span>Did you feel that the employees were knowledgeable?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-a" value="a" >
+                                Very knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-b" value="b" >
+                                Somewhat knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-c" value="c" >
+                                Neither knowledgeable nor uninformed.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                        <label>
+                            <input type="radio" name="question2" id="question2-d" value="d" >
+                            Somewhat uninformed.
+                        </label>
+                    </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-d" value="d" >
+                                Very uninformed.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 3 -->
+                    <div class="questions" id="question_3">
+                        <span class="text-bold spacer">Question 3:</span>Did you feel that the employees were friendly?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-a" value="a" >
+                                Very friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-b" value="b" >
+                                Somewhat friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-c" value="c" >
+                                Neither friendly nor unfriendly
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-d" value="d" >
+                                Somewhat unfriendly
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-e" value="e" >
+                                Very unfriendly
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 4 -->
+                    <div class="questions" id="question_4">
+                        <span class="text-bold spacer">Question 4:</span>Would you shop at this store again?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 5 -->
+                    <div class="questions" id="question_5">
+                        <span class="text-bold spacer">Question 5:</span>Would you recommend this store to a friend
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Sample Restaurant Survey </h3>
+                <div id="Restaurant-form">
+                    <!--- Question 1 -->
+                    <div class="questions" id="question_1">
+                        <span class="text-bold spacer">Question 1:</span>How do you about the quality of service provided
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-a" value="a" >
+                                Very satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-b" value="b" >
+                                Somewhat satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-c" value="c" >
+                                Neither satisfied nor unsatisfied
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Somewhat unsatisfied
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Very unsatisfied
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 2 -->
+                    <div class="questions" id="question_2">
+                        <span class="text-bold spacer">Question 2:</span>Did you feel that the employees were knowledgeable?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-a" value="a" >
+                                Very knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-b" value="b" >
+                                Somewhat knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-c" value="c" >
+                                Neither knowledgeable nor uninformed.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-d" value="d" >
+                                Somewhat uninformed.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-d" value="d" >
+                                Very uninformed.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 3 -->
+                    <div class="questions" id="question_3">
+                        <span class="text-bold spacer">Question 3:</span>Did you feel that the employees were friendly?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-a" value="a" >
+                                Very friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-b" value="b" >
+                                Very friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-c" value="c" >
+                                Neither friendly nor unfriendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-d" value="d" >
+                                Somewhat unfriendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-d" value="d" >
+                                Very unfriendly.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 4 -->
+                    <div class="questions" id="question_4">
+                        <span class="text-bold spacer">Question 4:</span>Would you shop at this store again?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 5 -->
+                    <div class="questions" id="question_5">
+                        <span class="text-bold spacer">Question 5:</span>Would you recommend this store to a friend?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Sample Insurance Survey</h3>
+                <div id="insurance-form">
+                    <!--- Question 1 -->
+                    <div class="questions" id="question_1">
+                        <span class="text-bold spacer">Question 1:</span>How do you about the quality of service provided
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-a" value="a" >
+                                Very satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-b" value="b" >
+                                Somewhat satisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-c" value="c" >
+                                Neither satisfied nor unsatisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Somewhat unsatisfied.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Very unsatisfied.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 2 -->
+                    <div class="questions" id="question_2">
+                        <span class="text-bold spacer">Question 2:</span>Did you feel that the employees were knowledgeable?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-a" value="a" >
+                                Very knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-b" value="b" >
+                                Somewhat knowledgeable.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-c" value="c" >
+                                Neither knowledgeable nor uninformed
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-d" value="d" >
+                                Somewhat uninformed.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-d" value="d" >
+                                Very uninformed.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 3 -->
+                    <div class="questions" id="question_3">
+                        <span class="text-bold spacer">Question 3:</span>Did you feel that the employees were friendly?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-a" value="a" >
+                                Very friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-b" value="b" >
+                                Somewhat friendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-c" value="c" >
+                                Neither friendly nor unfriendly.
+                            </label>
+                        </div>
+
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-d" value="d" >
+                                Somewhat unfriendly.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-d" value="d" >
+                                Very unfriendly
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 4 -->
+                    <div class="questions" id="question_4">
+                        <span class="text-bold spacer">Question 4:</span> Would you insure anything else with this agency to get lower rates?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 5 -->
+                    <div class="questions" id="question_5">
+                        <span class="text-bold spacer">Question 5:</span>Would you recommend this agency to a friend?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <h3>Sample Auto Industry Survey</h3>
+                    <div id="Auto-Industry-form">
+                        <!--- Question 1 -->
+                        <div class="questions" id="question_1">
+                            <span class="text-bold spacer">Question 1:</span>How do you about the quality of service provided?
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question1" id="question1-a" value="a" >
+                                    Very satisfied.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question1" id="question1-b" value="b" >
+                                    Somewhat satisfied.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question1" id="question1-c" value="c" >
+                                    Neither satisfied nor unsatisfied.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question1" id="question1-d" value="d" >
+                                    Somewhat unsatisfied.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question1" id="question1-d" value="d" >
+                                    Very unsatisfied.
+                                </label>
+                            </div>
+                        </div>
+                        <!--- Question 2 -->
+                        <div class="questions" id="question_2">
+                            <span class="text-bold spacer">Question 2:</span>Did you feel that the salesperson was knowledgeable?
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question2" id="question2-a" value="a" >
+                                    Very knowledgeable.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question2" id="question2-b" value="b" >
+                                    Somewhat knowledgeable.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question2" id="question2-c" value="c" >
+                                    Neither knowledgeable nor uninformed
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question2" id="question2-d" value="d" >
+                                    Somewhat uninformed.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question2" id="question2-d" value="d" >
+                                    Very uninformed.
+                                </label>
+                            </div>
+                        </div>
+                        <!--- Question 3 -->
+                        <div class="questions" id="question_3">
+                            <span class="text-bold spacer">Question 3:</span>Did you feel that the salesperson was friendly?
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question3" id="question3-a" value="a" >
+                                    Very friendly.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question3" id="question3-b" value="b" >
+                                    Somewhat friendly.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question3" id="question3-c" value="c" >
+                                    Neither friendly nor unfriendly.
+                                </label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question3" id="question3-d" value="d" >
+                                    Somewhat unfriendly.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question3" id="question3-d" value="d" >
+                                    Very unfriendly
+                                </label>
+                            </div>
+                        </div>
+                        <!--- Question 4 -->
+                        <div class="questions" id="question_4">
+                            <span class="text-bold spacer">Question 4:</span> Would you purchase another vehicle from this dealership?
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question4" id="question4-a" value="a" >
+                                    Yes.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question4" id="question4-b" value="b" >
+                                    No.
+                                </label>
+                            </div>
+                        </div>
+                        <!--- Question 5 -->
+                        <div class="questions" id="question_5">
+                            <span class="text-bold spacer">Question 5:</span>Would you recommend this dealership to a friend?
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question5" id="question5-a" value="a" >
+                                    Yes.
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                    <input type="radio" name="question5" id="question5-b" value="b" >
+                                    No.
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                <h3>Sample Law Enforcement Survey</h3>
+                <div id="law-enforcement-form">
+                    <!--- Question 1 -->
+                    <div class="questions" id="question_1">
+                        <span class="text-bold spacer">Question 1:</span>Do you feel safe in your home?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-a" value="a" >
+                                Very safe.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-b" value="b" >
+                                Somewhat safe.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-c" value="c" >
+                                Neither safe nor unsafe.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                               Somewhat unsafe.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question1" id="question1-d" value="d" >
+                                Very unsafe.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 2 -->
+                    <div class="questions" id="question_2">
+                        <span class="text-bold spacer">Question 2:</span>Did you that the police are engaged with the community?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question2" id="question2-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 3 -->
+                    <div class="questions" id="question_3">
+                        <span class="text-bold spacer">Question 3:</span>Did you feel that the police are making the community safer?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question3" id="question3-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                    <!--- Question 4 -->
+                    <div class="questions" id="question_4">
+                        <span class="text-bold spacer">Question 4:</span>How do you feel about the response time of the police department?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-a" value="a" >
+                                Very fast.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-b" value="b" >
+                                Somewhat fast.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-c" value="c" >
+                                Neither fast nor slow.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-d" value="d" >
+                                Somewhat slow.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question4" id="question4-d" value="d" >
+                                Very slow.
+                            </label>
+                        </div>
+
+                    </div>
+                    <!--- Question 5 -->
+                    <div class="questions" id="question_5">
+                        <span class="text-bold spacer">Question 5:</span>Do you feel the police are making a difference?
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-a" value="a" >
+                                Yes.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="radio" name="question5" id="question5-b" value="b" >
+                                No.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
