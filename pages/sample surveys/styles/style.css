@@ -1,4 +1,5 @@
-.text-bold spacer{
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+.text-bold{
     font-weight: bold;
 }
 .spacer::after{
