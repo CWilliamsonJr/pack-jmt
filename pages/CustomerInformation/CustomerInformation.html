@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/custinfo.css">
+<title>Customer Information</title>
+</head>
+	<body>
+	<h1>Request a Survey</h1>
+	<p>Please enter the following information to help us create the best survey for your needs!</p>
+
+		<ul-info>
+		  Title (Mr. Mrs. Ms. Miss): <input type="text" name="title"><br>
+		  First name:<input type="text" name="fname" ><br>
+		  Middle initial: <input type="text" name="middle" maxlength="1"><br>
+		  Last name: <input type="text" name="lname"><br>
+		  Phone number:<input type="text" name="pnumber"><br>
+		  Email: <input type="text" name="email"><br>
+		  Best way to contact: <input type="text" name="contact"><br>
+		  Company title: <input type="text" name="ctitle"><br>
+		  Company or business name: <input type="text" name="cname"><br>
+		  Street address: <input type="text" name="address"><br>
+		  City: <input type="text" name="city"><br>
+		  State: <input type="text" name="state"><br>
+		  Zipcode: <input type="text" name="zipcode"><br>
+		</ul-info>
+		<h1>Type of survey required.</h1>
+
+		<ul>
+			<input type="checkbox" id="cbox1" name="survey" value="New Venture">New Venture<br>
+		  <input type="checkbox" id="cbox2" name="survey" value="Customer Satisfaction<">Customer Satisfaction<br>
+			<input type="checkbox" id="cbox3" name="survey" value="Expansion">Expansion<br>
+			<input type="checkbox" id="cbox4" name="survey" value="Franchise">Franchise<br>
+			<input type="checkbox" id="cbox5" name="survey" value="New Product">New Product<br>
+			<input type="checkbox" id="cbox6" name="survey" value="Information">Information<br>
+		</ul>
+			<input type="submit" value="Submit"><br>
+
+			<script>
+			    $(document).ready(function(){
+			        $('input[id="cbox1"]').click(function(){
+			            if($(cbox1).is(":checked")){
+										  name1=prompt("Please enter any additional information for your new venture.");
+				 					}
+									});
+							$('input[id="cbox2"]').click(function(){
+					        if($(cbox2).is(":checked")){
+										  name2=prompt("Please enter any additional information for customer satisfaction.");
+						 			}
+									});
+							$('input[id="cbox3"]').click(function(){
+									if($(cbox3).is(":checked")){
+											name3=prompt("Please enter any additional information for your expansion.");
+									}
+									});
+							$('input[id="cbox4"]').click(function(){
+									if($(cbox4).is(":checked")){
+											name4=prompt("Please enter any additional information for your franchise.");
+									}
+									});
+							$('input[id="cbox5"]').click(function(){
+									if($(cbox5).is(":checked")){
+											name5=prompt("Please enter any additional information for your new product.");
+								  }
+									});
+							$('input[id="cbox6"]').click(function(){
+									if($(cbox6).is(":checked")){
+											name6=prompt("Please enter any additional information.");
+									}
+			        });
+				});
+		</script>
+</body>
+</html>
