@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Pack-JMT FAQ</title>
+<script language="JavaScript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('#faq').find('dd').hide().end().find('dt').click(function() {
+			$(this).next().slideToggle('slow');
+		});
+	});
+</script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style type="text/css">
+	body{
+		text-align: center;
+		font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+		background-image: url("images/greybackground.jpg")
+		}
+	h1{
+		padding: 25px;
+		color: white;
+	}
+	#faq {
+		width: 900px;
+		display: inline-block;
+		text-align:left;
+	}
+	#faq dt {
+		color: #2763A5;
+		cursor: pointer;
+		margin: 8px 0;
+		padding: 10px;
+		font-size: 25px;
+		border-top: 1px solid #FFF;	
+	}
+	#faq dt:first-child{
+	border-top: none;
+	}
+	#faq dt::before{
+	content: "»"
+	}
+	#faq dd {
+		padding: 0;
+		margin: 0;
+		color: white;
+	}
+	#faq dd p {
+		padding: 10px;
+		margin: 0;
+		font-size: 23px;
+	}
+	
+</style>
+</head>
+<body>
+<div class="container-fluid">
+  <h1>Frequently Asked Questions</h1>
+  <dl id="faq" style="margin: 0px auto;">
+    <dt>What are the advantages of a survey?</dt>
+      <dd><p>With a survey you will be able to access the opinions of a large amount of people
+        in a short amount of time.  With the right questions, you will be well on your way
+        to understanding how to move forward.  In short, surveys are the most efficient
+        way to gather information, whether that be in a small group setting, or in
+        a large market setting.</p></dd>
+        <dt>Why should we choose to work with you?</dt>
+        <dd><p>Not only are our prices competitive, but we have formed relationships with businesses
+          around the world, giving you access to a larger pool of respondents.  This can be accomplished
+          through internet marketing or through email.  In addition, we offer a large range of
+          customization options, which allows you to make your survey more appealing.</dd>
+  	<dt>Is there a limit to the number of people who can take the survey?</p></dt>
+		<dd><p>There is not a limit, but prices may vary depending on the number of
+				respondents you wish to take the survey.  For example, sending a survey out to ten people
+				costs less than sending surveys out to one hundred people.  For more information about
+				pricing you can call and we will give you pricing plans and options.  In addition, you
+				can cap the number of respondents if you wish, so that your data pool doesn't grow larger
+				than you intended.</p></dd>
+	<dt>How much does sending out a survey cost?</dt>
+		<dd><p>The price of sending out a survey varies with the number of surveys you wish to send out.
+			We have a free program you can join, but it is limited to 25 people at a time.  If you wish to send
+			out more surveys, the price scales up not only as a result of the number of surveys sent out, but also
+			as a result of the number of questions and the extent to which the survey is customized.  For example, sending
+			out 500 blank surveys with only three questions may cost less than sending out 300 surveys with 10 questions that
+			are heavily customized.</p></dd>
+	<dt>Is there a limit to the number of questions per survey?</dt>
+		<dd><p>There is not a limit, but the number of questions per survey not only affects price, it may effect
+			the number of responses.  We suggest limiting the number of questions to 25 for small group surveys,
+			and furthur limiting the number of questions to 10 for mass surveys.  That way, while you may not
+			get all of your answers, you will get the responses you need.  If you need to send out another survey
+			to get all of your answers, you will still be able to get high quality responses.</p></dd>
+    <dt>What kind of questions can be put on the survey?</dt>
+		<dd><p>You can put three kinds of questions on your survey: true/false, multiple choice, and short answer.
+      The only caveat is that if you put short answer on your survey, we will not be able to give the same
+      type of analysis we coul provide if you only asked true/false and multiple choice questions.</p></dd>
+    <dt>When will I get the results?</dt>
+		<dd><p>As soon as people respond to your survey, you will get the results.  Once
+		everybody has responded, you will get an overview of the responses.  This overview can
+  		be modified depending on your needs.  It can be a simple bar graph or it can be
+  		a pie chart or a myriad of other options.</p></dd>
+    <dt>Can I customize my survey?</dt>
+       <dd><p>We offer customization options for the presentation of the survey as well
+        as presentation of the results.  For different presentation options please call.
+  	  However, we have found that oftentimes a simple survey works as well, or better, than
+  	  a complicated one because people are more likely to see the survey as quick and easy.
+  	  As for the presentation options, we offer customizable options, but it is also easy to
+  	  create your own presentation with just the data.</p></dd>
+    <dt>How do I send out my survey?</dt>
+      <dd><p>You can send out your survey via email or social media.  Once the survey
+        is created, it will be sent to the addresses and profiles that
+        you specify.  However, if you wish to send out a mass survey, you must provide
+		the social media outlets that you want the surveys posted on.  For example, you can post
+		the survey on your twitter account and/or your facebook page.</p></dd>
+    <dt>Can I send out a mass survey to a target audience?</dt>
+      <dd>  <p>Yes, we will help you find your target demographic, and allow you
+         to send out a mass survey, or put it on websites for people to
+         fill out.  Given the demographic that you are wishing to target, we
+     will use different outlets.  We have done market research to determine
+     which websites different demographics visit.<p></dd>
+  </dl>
+  </div>
+ </body>
+ </html>
