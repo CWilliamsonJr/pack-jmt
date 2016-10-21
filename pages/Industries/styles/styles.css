@@ -25,7 +25,7 @@ div a:hover{
 
 .button{
 	width:200px;
-	background: light-gray;
+	background-color: lightgray;
 	line-height:50px;
 	text-align:center;
 	font-weight:bold;
