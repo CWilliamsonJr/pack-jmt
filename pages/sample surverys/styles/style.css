@@ -1,6 +1,0 @@
-.text-bold spacer{
-    font-weight: bold;
-}
-.spacer::after{
-    content: "\00a0";
-}

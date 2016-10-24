@@ -1,0 +1,11 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css";
+.text-bold{
+    font-weight: bold;
+}
+.spacer::after{
+    content: "\00a0";
+}
+.brand-logo{
+    height:30px;
+    width:30px;
+}
