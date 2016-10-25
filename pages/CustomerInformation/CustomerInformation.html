@@ -39,32 +39,90 @@
 <h1>Request a Survey</h1>
 <p>Please enter the following information to help us create the best survey for your needs!</p>
 
-<ul class="info">
-  Title (Mr. Mrs. Ms. Miss): <input type="text" name="title" style="width: 180px"><br>
-  First name:<input type="text" name="fname" ><br>
-  Middle initial: <input type="text" name="middle" maxlength="1" style="width: 15px"><br>
-  Last name: <input type="text" name="lname"><br>
-  Phone number:<input type="text" name="pnumber"><br>
-  Email: <input type="text" name="email"><br>
-  Best way to contact: <input type="text" name="contact"><br>
-  Company title: <input type="text" name="ctitle"><br>
-  Company or business name: <input type="text" name="cname"><br>
-  Street address: <input type="text" name="address"><br>
-  City: <input type="text" name="city"><br>
-  State: <input type="text" name="state" style="width: 90px"><br>
-  Zipcode: <input type="text" name="zipcode" style="width: 90px"><br>
-</ul>
-<h1>Type of survey required</h1>
+<form class="info form-horizontal col-sm-push-6">
+   <div class="form-group">
+     <label for="inputEmail3" class="col-sm-2 control-label">Title (Mr. Mrs. Ms. Miss):</label>
+     <div class="col-sm-3">
+      <input type="text" name="title" style="width: 180px" class="form-control">
+      </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">First name:</label>
+    <div class="col-sm-3">
+     <input type="text" name="fname" style="width: 180px" class="form-control">
+     </div>
+  </div>
+  <div class="form-group">
+    <label for="inputEmail3" class="col-sm-2 control-label">Middle initial:</label>
+    <div class="col-sm-3">
+     <input type="text" name="middle" style="width: 180px" class="form-control">
+     </div>
+ </div>
+ <div class="form-group">
+   <label for="inputEmail3" class="col-sm-2 control-label">Last name: </label>
+   <div class="col-sm-3">
+    <input type="text" name="last" style="width: 180px" class="form-control">
+    </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Phone number::</label>
+  <div class="col-sm-3">
+   <input type="text" name="pnumber" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Email:</label>
+  <div class="col-sm-3">
+   <input type="text" name="email" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Best way to contact:</label>
+  <div class="col-sm-3">
+   <input type="text" name="contact" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Company or business name:</label>
+  <div class="col-sm-3">
+   <input type="text" name="ctitle" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Street address:</label>
+  <div class="col-sm-3">
+   <input type="text" name="address" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label"> City:</label>
+  <div class="col-sm-3">
+   <input type="text" name="city" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">State:</label>
+  <div class="col-sm-3">
+   <input type="text" name="state" style="width: 180px" class="form-control">
+   </div>
+</div>
+<div class="form-group">
+  <label for="inputEmail3" class="col-sm-2 control-label">Zipcode:</label>
+  <div class="col-sm-3">
+   <input type="text" name="zipcode" style="width: 180px" class="form-control">
+   </div>
+</div>
 
-<ul>
+<h1>Type of survey required</h1>
     <input type="checkbox" id="cbox1" name="survey" value="New Venture">New Venture<br>
     <input type="checkbox" id="cbox2" name="survey" value="Customer Satisfaction<">Customer Satisfaction<br>
     <input type="checkbox" id="cbox3" name="survey" value="Expansion">Expansion<br>
     <input type="checkbox" id="cbox4" name="survey" value="Franchise">Franchise<br>
     <input type="checkbox" id="cbox5" name="survey" value="New Product">New Product<br>
     <input type="checkbox" id="cbox6" name="survey" value="Information">Information<br>
-</ul>
+
 <input type="submit" value="Submit"><br>
+</form>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script>
@@ -106,6 +164,5 @@
         });
 
 </script>
-
 </body>
 </html>
