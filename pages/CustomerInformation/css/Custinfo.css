@@ -4,10 +4,11 @@
     color: black;
     font-family: helvetica;
 	  text-align: center;
-  }
+		//margin-top: 0px;
+
+
+	  }
 	input[type=text] {
-		width: 150px;
-		display: line-block;
-		margin-bottom: 2px;
+	//	padding: 5px ; line-height:10px;
 		background-color: yellow;
-  }
+}
