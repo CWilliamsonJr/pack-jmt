@@ -14,14 +14,7 @@ height: 30px;
 	height: 300px;
 }
 
-#ssbutton{
-margin-left: auto	
+#sub-button{
+    margin-left: 11em;
 }
 
-#rsbutton{
-margin-bottom: auto
-}
-
-#faqbutton{
-margin-right: auto
-}
