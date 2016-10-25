@@ -8,9 +8,8 @@
     <title>Customer Information</title>
 </head>
 <body>
-<nav class="navbar navbar-default">
+  <nav class="navbar navbar-default">
     <div class="container-fluid">
-
         <div class="">
             <div class="navbar-brand"><a class="" href="../../index.html"><img class="brand-logo clear" src="../../images/Pack JMT Logo.png" />Request A Survey</a></div>
             <ul class="nav navbar-nav navbar-right margin_right">
@@ -41,21 +40,21 @@
 <p>Please enter the following information to help us create the best survey for your needs!</p>
 
 <ul class="info">
-    Title (Mr. Mrs. Ms. Miss): <input type="text" name="title"><br>
-    First name:<input type="text" name="fname"><br>
-    Middle initial: <input type="text" name="middle" maxlength="1"><br>
-    Last name: <input type="text" name="lname"><br>
-    Phone number:<input type="text" name="pnumber"><br>
-    Email: <input type="text" name="email"><br>
-    Best way to contact: <input type="text" name="contact"><br>
-    Company title: <input type="text" name="ctitle"><br>
-    Company or business name: <input type="text" name="cname"><br>
-    Street address: <input type="text" name="address"><br>
-    City: <input type="text" name="city"><br>
-    State: <input type="text" name="state"><br>
-    Zipcode: <input type="text" name="zipcode"><br>
+  Title (Mr. Mrs. Ms. Miss): <input type="text" name="title" style="width: 180px"><br>
+  First name:<input type="text" name="fname" ><br>
+  Middle initial: <input type="text" name="middle" maxlength="1" style="width: 15px"><br>
+  Last name: <input type="text" name="lname"><br>
+  Phone number:<input type="text" name="pnumber"><br>
+  Email: <input type="text" name="email"><br>
+  Best way to contact: <input type="text" name="contact"><br>
+  Company title: <input type="text" name="ctitle"><br>
+  Company or business name: <input type="text" name="cname"><br>
+  Street address: <input type="text" name="address"><br>
+  City: <input type="text" name="city"><br>
+  State: <input type="text" name="state" style="width: 90px"><br>
+  Zipcode: <input type="text" name="zipcode" style="width: 90px"><br>
 </ul>
-<h1>Type of survey required.</h1>
+<h1>Type of survey required</h1>
 
 <ul>
     <input type="checkbox" id="cbox1" name="survey" value="New Venture">New Venture<br>
@@ -97,10 +96,15 @@
         });
         $('input[id="cbox6"]').click(function(){
             if($(cbox6).is(":checked")){
-                name6 = prompt("Please enter any additional information.");
+                name6=prompt("Please enter information for a survey not listed.");
             }
         });
-    });
+        $('input[id="cbox7"]').click(function(){
+            if($(cbox7).is(":checked")){
+                name7=prompt("Please enter any additional information.");
+            }
+        });
+
 </script>
 
 </body>
