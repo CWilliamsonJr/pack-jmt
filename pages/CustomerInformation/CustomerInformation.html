@@ -130,8 +130,13 @@
                 </div>
             </div>
 
-            <h1>Type of survey required</h1>
 
+            <div class="form-group">
+                <label for="inputEmail3" class="col-sm-7 control-label"><h1 class="col-sm-pull-10">Type of survey required</h1></label>
+                <div class="col-sm-3">
+                    <input type="hidden" name="zipcode" style="width: 180px" class="form-control">
+                </div>
+            </div>
             <div class="form-group">
                 <label for="inputEmail3" class="col-sm-2 control-label">New Venture</label>
                 <div class="col-sm-1">
@@ -178,38 +183,38 @@
             $(function(){
                 $('input[id="cbox1"]').click(function(){
                     if($("#cbox1").is(":checked")){
-                        name1 = prompt("Please enter any additional information for your new venture.");
+                        var name1 = prompt("Please enter any additional information for your new venture.");
                     }
                 })
             });
             $('input[id="cbox2"]').click(function(){
                 if($("#cbox2").is(":checked")){
-                    name2 = prompt("Please enter any additional information for customer satisfaction.");
+                    var name2 = prompt("Please enter any additional information for customer satisfaction.");
                 }
             });
             $('input[id="cbox3"]').click(function(){
                 if($("#cbox3").is(":checked")){
-                    name3 = prompt("Please enter any additional information for your expansion.");
+                    var name3 = prompt("Please enter any additional information for your expansion.");
                 }
             });
             $('input[id="cbox4"]').click(function(){
                 if($("#cbox4").is(":checked")){
-                    name4 = prompt("Please enter any additional information for your franchise.");
+                    var name4 = prompt("Please enter any additional information for your franchise.");
                 }
             });
             $('input[id="cbox5"]').click(function(){
                 if($("#cbox5").is(":checked")){
-                    name5 = prompt("Please enter any additional information for your new product.");
+                    var name5 = prompt("Please enter any additional information for your new product.");
                 }
             });
             $('input[id="cbox6"]').click(function(){
                 if($("#cbox6").is(":checked")){
-                    name6 = prompt("Please enter information for a survey not listed.");
+                    var name6 = prompt("Please enter information for a survey not listed.");
                 }
             });
             $('input[id="cbox7"]').click(function(){
                 if($("#cbox7").is(":checked")){
-                    name7 = prompt("Please enter any additional information.");
+                    var name7 = prompt("Please enter any additional information.");
                 }
             });
         </script>
